@@ -9,12 +9,11 @@ import { HttpClientInMemoryWebApiModule } from "angular-in-memory-web-api";
 import { InMemoryDataService } from "./in-memory-data.service";
 
 import { HeroesComponent } from "./heroes/heroes.component";
-import { MetadataOverrider } from "@angular/core/testing/src/metadata_overrider";
 import { HeroDetailComponent } from "./hero-detail/hero-detail.component";
 import { MessagesComponent } from "./messages/messages.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { HeroSearchComponent } from "./hero-search/hero-search.component";
-import { HighlightDirective } from './highlight.directive';
+import { HighlightDirective } from "./highlight.directive";
 
 @NgModule({
   declarations: [
